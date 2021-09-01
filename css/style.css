@@ -431,15 +431,23 @@ h3 {
   width: 30px;
   height: 60px;
 }
+@media (max-width: 479.98px) {
+  .slider .slick-arrow {
+    width: 20px;
+    height: 40px;
+  }
+}
 
 .slider .slick-arrow.slick-prev {
   left: 0;
   background: url("../img/svg/sl-arrow_l.svg") 0 0/100% no-repeat;
+  opacity: 0.3;
 }
 
 .slider .slick-arrow.slick-next {
   right: 0;
   background: url("../img/svg/sl-arrow_r.svg") 0 0/100% no-repeat;
+  opacity: 0.3;
 }
 
 /* когда стрелка становится не кликабельной */
