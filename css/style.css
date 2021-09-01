@@ -434,12 +434,12 @@ h3 {
 
 .slider .slick-arrow.slick-prev {
   left: 0;
-  background: url("/img/svg/sl-arrow_l.svg") 0 0/100% no-repeat;
+  background: url("../img/svg/sl-arrow_l.svg") 0 0/100% no-repeat;
 }
 
 .slider .slick-arrow.slick-next {
   right: 0;
-  background: url("/img/svg/sl-arrow_r.svg") 0 0/100% no-repeat;
+  background: url("../img/svg/sl-arrow_r.svg") 0 0/100% no-repeat;
 }
 
 /* когда стрелка становится не кликабельной */
