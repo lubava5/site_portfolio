@@ -72,6 +72,7 @@ button::-moz-focus-inner {
 a, a:visited {
   text-decoration: none;
   display: block;
+  color: #000;
 }
 
 a:hover {
@@ -517,11 +518,12 @@ canvas {
 .contacts .container {
   text-align: center;
 }
-.contacts .container p {
+.contacts .container a {
+  color: #fff;
   line-height: 2;
 }
 @media (max-width: 479.98px) {
-  .contacts .container p {
+  .contacts .container a {
     font-size: 14px;
   }
 }
